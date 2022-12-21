@@ -3,6 +3,9 @@
 
 int main(void)
 {
-    int input = get_int("Input: ");
-    printf("%i", input);
+    int input[4];
+    input = get_int("Input: ");
+    int target = get_int("Target: ");
+    printf("%i\n", input);
+    printf("%i", target);
 }
